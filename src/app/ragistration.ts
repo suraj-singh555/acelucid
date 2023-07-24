@@ -1,19 +1,19 @@
 export interface Ragistration {
-    id: number,
-    name: string,
-    username: string,
-    email: string,
+   // id: '',
+    name: '',
+    username: '',
+    email: '',
     address: {
-        street: string,
-        suite: string,
-        city: string,
-        zipcode: string
+        street: '',
+        suite: '',
+        city: '',
+        zipcode: ''
     },
-    phone: string,
-    website: string,
+    phone: '',
+    website: '',
     company: {
-        name: string,
-        catchPhrase: string,
-        bs: string
+        name: '',
+        catchPhrase: '',
+        bs: ''
     }
 }
