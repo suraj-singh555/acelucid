@@ -1,0 +1,80 @@
+{
+  "details": [
+    {
+      "id": 0,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "sincere@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+      },
+      "phone": "1-770-736-8031",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": "1",
+      "name": "suraj",
+      "username": "sskjksj",
+      "email": "suraj@gmail.com",
+      "address": {
+        "street": "",
+        "suite": "",
+        "city": "",
+        "zipcode": ""
+      },
+      "phone": "5555555555",
+      "website": "fffffff",
+      "company": {
+        "name": "",
+        "catchPhrase": "",
+        "bs": ""
+      }
+    },
+    {
+      "id": "2",
+      "name": "raja",
+      "username": "rajaram",
+      "email": "suraj1@gmail.com",
+      "address": {
+        "street": "hhhhhhhhh",
+        "suite": "hhhhhhhhhhh",
+        "city": "nnb",
+        "zipcode": " hhhhhhhhhhh"
+      },
+      "phone": "6666666666",
+      "website": "sggdhs.com",
+      "company": {
+        "name": "kolkata",
+        "catchPhrase": "bbbbbbb",
+        "bs": "bbbbbb"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Aman",
+      "username": "Aman2",
+      "email": "Aman@gmail.com",
+      "address": {
+        "street": "mg road",
+        "suite": "211",
+        "city": "kolkata",
+        "zipcode": "700012"
+      },
+      "phone": "77717177117",
+      "website": "google.com",
+      "company": {
+        "name": "Invent",
+        "catchPhrase": "nnjj",
+        "bs": "jbjj"
+      }
+    }
+  ]
+}

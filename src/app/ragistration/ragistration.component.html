@@ -1,0 +1,88 @@
+<div class="container allRagistration">
+    <mat-card>
+        <div>
+            <h2 style="text-align: center;">Add New Ragistration</h2>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>id</mat-label>
+                    <input matInput placeholder="id" [(ngModel)]="ragistrationData.id">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>name</mat-label>
+                    <input matInput placeholder="name" [(ngModel)]="ragistrationData.name">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>username</mat-label>
+                    <input matInput placeholder="username" [(ngModel)]="ragistrationData.username">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>email</mat-label>
+                    <input matInput placeholder="email" [(ngModel)]="ragistrationData.email">
+                </mat-form-field>
+            </div>
+            <div><h2 style="text-align: center;">Company</h2>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>street</mat-label>
+                    <input matInput placeholder="street" [(ngModel)]="ragistrationData.address.street">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>suite</mat-label>
+                    <input matInput placeholder="suite" [(ngModel)]="ragistrationData.address.suite">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>city</mat-label>
+                    <input matInput placeholder="city" [(ngModel)]="ragistrationData.address.city">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>zipcode</mat-label>
+                    <input matInput placeholder="zipcode" [(ngModel)]="ragistrationData.address.zipcode">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>phone</mat-label>
+                    <input matInput placeholder="phone" [(ngModel)]="ragistrationData.phone">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>website</mat-label>
+                    <input matInput placeholder="website" [(ngModel)]="ragistrationData.website">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>name</mat-label>
+                    <input matInput placeholder="name" [(ngModel)]="ragistrationData.company.name">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>catchPhrase</mat-label>
+                    <input matInput placeholder="catchPhrase" [(ngModel)]="ragistrationData.company.catchPhrase">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline" class="form-eliments">
+                    <mat-label>bs</mat-label>
+                    <input matInput placeholder="bs" [(ngModel)]="ragistrationData.company.bs">
+                </mat-form-field>
+            </div>
+            <div>
+                <button mat-raised-button color="primary" type="button" (click)="addData()">Ragistar</button>
+            </div>
+        </div>
+    </mat-card>
+</div>
